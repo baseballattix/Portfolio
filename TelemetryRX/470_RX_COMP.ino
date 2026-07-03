@@ -9,10 +9,10 @@ extern "C" {
 }
 // ---------- Wifi Config -------------
 const char* SSID = "AttixPhone";
-const char* PASS = "deeznutsinyourface";
+const char* PASS = "REDACTED";
 
-IPAddress laptopIP(172, 20, 10, 8); //change for your laptop IP
-const uint16_t laptopPort = 5005;
+IPAddress laptopIP(REDACTED); //change for your laptop IP
+const uint16_t laptopPort = REDACTED;
 
 WiFiUDP udp;
 uint32_t counter = 0;
